@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../media/logo_small.webp"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Las Bardas ✈</title>
+  </head>
+  <body>
+    <header>
+      <img src="../media/logo.webp" alt="" id="logo" />
+      <nav>
+        <ul class="nav">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./destinos.html">Destinos</a>
+          </li>
+          <li>
+            <a href="./fifteen.html">Quinceañeras</a>
+          </li>
+          <li>
+            <a href="./nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact">
+      <fieldset>
+        <legend>Formulario de Contacto</legend>
+        <form action="" method="get" class="contact">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="José Luis" />
+          <label for="lastname">Apellido</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Koller"
+          />
+          <label for="mail">Correo Electronico</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="nombre@email.com"
+          />
+          <label for="target">Destino Interesado</label>
+          <input type="text" name="target" id="target" placeholder="Valhalla" />
+
+          <label for="info">Contanos sobre vos</label>
+          <textarea
+            name="info"
+            id="info"
+            cols="30"
+            rows="10"
+            placeholder="Contanos un poco sobre que es lo que te gustaria experimentar en este destino..."
+          ></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </fieldset>
+      <iframe
+        class="maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7374951733673!2d-68.06469068467716!3d-38.95282497956218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33cef5b7cff1%3A0x80483ab999c3c3f6!2sLas%20Bardas%20Empresa%20de%20Viajes%20y%20Turismo!5e0!3m2!1ses-419!2sar!4v1616096294837!5m2!1ses-419!2sar"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </main>
+    <footer>
+      <div class="newsletter">
+        <img src="./media/email.webp" alt="" />
+        <form action="">
+          <label for="news">Newsletter</label>
+          <p>Recibi todas las novedades en tu bandeja de correo</p>
+          <input
+            type="email"
+            name="mail"
+            id="news"
+            placeholder="nombre@email.com"
+          />
+          <input type="submit" value="Registrarse" id="news" />
+        </form>
+      </div>
+      <div class="social">
+        <br />
+        <label for="social">Redes Sociales</label><br />
+        <a href="https://www.instagram.com/lasbardasviajes/">
+          <img src="../media/ig_icon.webp" alt="" id="social_icons" />
+        </a>
+        <a href="https://es-la.facebook.com/LasBardasViajesyTurismo/">
+          <img src="../media/fb_icon.webp" alt="" id="social_icons" />
+        </a>
+      </div>
+      <div class="contact">
+        <p>
+          <img src="../media/pin.webp" alt="" />
+          <a href="https://goo.gl/maps/7w6jVYt2j42GSUpEA"
+            >Carlos H.Rodríguez 253</a
+          >
+        </p>
+        <p><img src="../media/a.webp" alt="" /> info@lasbardas.net</p>
+        <p><img src="../media/phone.webp" alt="" /> +542994427551</p>
+      </div>
+    </footer>
+  </body>
+</html>
