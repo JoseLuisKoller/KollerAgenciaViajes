@@ -243,6 +243,10 @@ footer {
 footer div.newsletter {
   background-color: var(--main-highlight-color);
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer div.newsletter img {
@@ -255,6 +259,8 @@ footer div.contact {
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer div.contact a {
@@ -272,6 +278,10 @@ footer label {
 
 footer div.social {
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer div.social img {
