@@ -263,3 +263,23 @@ section.welcome {
   margin-left: 2%;
   margin-right: 1%;
   text-align: left; }
+
+div .border-inner-right {
+  border: 0px;
+  border-right: 2px solid black; }
+
+div .border-inner-top {
+  border: 0px;
+  border-top: 2px solid black; }
+
+div .bg-table-high {
+  background-color: pink; }
+
+div .bg-table {
+  background-color: orange; }
+
+div .gallery img {
+  min-width: 150px;
+  min-height: auto;
+  max-width: 200px;
+  max-height: auto; }
